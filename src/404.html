@@ -8,13 +8,22 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <!--On Click Button-->
+    <script>
+        function fun() {
+        alert("Congratulations you've been added to our newsletter, see you there!");
+        }
+        </script>
+    <!--On Click Button Ends-->
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
     
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -45,6 +54,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <link rel="icon" type="image/png" href="logo.ico">
                 <h1 class="m-0 text-primary">Job Genie</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -156,7 +166,7 @@
                         <p>Subscribe to our newsletter for latest job updates.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                            <button onclick = "fun()" type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
                         </div>
                     </div>
                 </div>

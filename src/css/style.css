@@ -7,7 +7,7 @@
 } */
 
 :root {
-    --primary: #25316D;
+    --primary: #0a66c2;
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
@@ -23,12 +23,12 @@
 
  /* Login Page */
 
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+ @import url(<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 body {
   display: flex;
@@ -52,7 +52,7 @@ body {
   left: -50%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  background: linear-gradient(0deg, transparent, #4a4a4a);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
 }
@@ -63,11 +63,27 @@ body {
   left: -50%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+  background: linear-gradient(0deg, transparent, #25316d);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
   animation-delay: -3s;
 }
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:rgb(232, 87, 87);
+   overflow: hidden;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
 
 .form {
   position: absolute;
@@ -80,7 +96,7 @@ body {
   flex-direction: column;
 }
 .form h2 {
-  color: #2B3940;
+  color: #25316d;
   font-weight: 500;
   align-items: center;
   letter-spacing: 0.1em;
@@ -97,7 +113,7 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  color: #2B3940;
+  color: #ffffff;
   font-size: 1em;
   letter-spacing: 0.05em;
   z-index: 10;
@@ -124,7 +140,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #45f3ff;
+  background: #25316d;
   border-radius: 4px;
   transition: 0.5s;
   pointer-events: none;
@@ -141,18 +157,18 @@ body {
 .links a {
   margin: 10px 0;
   font-size: 0.75em;
-  color: #8f8f8f;
+  color: #25316d;
   text-decoration: none;
 }
 .links a:hover,
 .links a:nth-child(2) {
-  color: #45f3ff;
+  color: #25316d;
 }
 input[type="submit"] {
-  border: 1px solid #45f3ff;
+  border: 1px solid #4a4a4a;
   outline: none;
   background: transparent;
-  color:#fff;
+  color:#25316d;
   padding: 11px 25px;
   width: 100px;
   margin-top: 10px;
@@ -162,8 +178,8 @@ input[type="submit"] {
   transition: all .3s ease;
 }
 input[type="submit"]:hover{
-background: #45f3ff;
-color: #23242a;
+background: #fbfbfb;
+color: #000000;
 }
 input[type="submit"]:active {
   opacity: 0.8;
@@ -188,7 +204,7 @@ input[type="submit"]:active {
 
 /*** Button ***/
 .btn {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 600;
     transition: .5s;
 }

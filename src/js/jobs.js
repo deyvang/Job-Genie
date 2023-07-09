@@ -11,7 +11,7 @@ function formatTime(inputTime) {
 
 const fetchJobs = async () => {
     try {
-        const response = await fetch('https://jobsearch4.p.rapidapi.com/api/v1/Jobs/Search?SearchQuery=google', {
+        const response = await fetch('https://jobsearch4.p.rapidapi.com/api/v1/Jobs/Search?SearchQuery=', {
             method: 'GET',
             headers: {
                 'X-RapidAPI-Key': '7e18f8d590msh35a7a6e6e5a36dep1ae26bjsn0163a43d408c',
